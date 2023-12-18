@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input form and Animations</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Input Forms</h1>
+        <h2>All HTML inputs</h2>
+      </header>
+
+      <form action="#">
+        <section>
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            name="fullname"
+            id="name"
+            placeholder="Enter your name"
+            value=""
+            required
+          />
+        </section>
+
+        <section>
+          <label for="phone">Phone Number</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="Enter your Phone Number"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your Email"
+            required
+          />
+        </section>
+        <section>
+          <label for="date">Date of Birth</label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            placeholder="Enter your Date of Birth"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="color">Choose a color</label>
+          <input type="color" name="color" id="color" required />
+        </section>
+
+        <section>
+          <label for="range">Choose a Number</label>
+          <input
+            type="range"
+            name="range"
+            id="range"
+            min="0"
+            max="10"
+            step="2"
+            required
+          />
+        </section>
+        <section class="checkbox">
+          <label for="checkbox">Subcribe to our email</label>
+          <input type="checkbox" name="checkbox" id="checkbox" required />
+        </section>
+
+        <section>
+          <label for="Male">Male</label>
+          <input type="radio" value="Male" name="radio" id="Male" />
+
+          <label for="female">Female</label>
+          <input type="radio" value="female" name="radio" id="female" />
+
+          <label for="custom">Custom</label>
+          <input type="radio" value="custom" name="radio" id="custom" />
+        </section>
+
+        <section>
+          <label for="file">file</label>
+          <input type="file" name="file" id="file" accept="pdf/*" required />
+        </section>
+
+        <section>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your Password"
+            required
+          />
+        </section>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <section class="box-container">
+        <section class="box"></section>
+      </section>
+    </main>
+  </body>
+</html>
